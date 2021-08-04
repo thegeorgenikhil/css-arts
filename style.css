@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+:root{
+    --background-color: #203040;
+    --navigation : #121e2b;
+    --background-tint:#2a3d52;
+    --font-color: #203040;
+    --font-inactive: #4c555f;
+    --text-inside:#626c77;
+    --active-tab:#2da4fe;
+    --black:#0e161f;
+    --red:#de3232;
+    --green:#128d41;
+    --star:#f9de37;
+    --star-bright:#f0d316;
+}
+
+body{
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-area{
+    background-color: var(--background-color);
+    width: 300px;
+    height: 100vh;
+    margin: auto;
+}
+
+.logo-img{
+    width: 30%;
+    margin-left: 2.5rem;
+}
+
+.header-icons{
+    color: white;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 1rem;
+}
+
+
+.currency-header{
+    display: flex;
+    color: white;
+    font-size: 0.7rem;
+    justify-content: space-around;
+    padding-top: 1rem;
+    align-items: center;
+}
+
+.currency-text{
+    padding:0 1.2rem;
+}
+
+.golden{
+    color: #f9df378a;
+    padding:0 10px;
+}
+
+.active{
+    border-bottom: 4px solid var(--active-tab);
+}
+
+.column-tab{
+    background-color: var(--black);
+    color: var(--font-inactive);
+    font-size: 0.6rem;
+    padding: 0.4rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.column-sub{
+    display: flex;
+}
+
+.price{
+    padding-right: 1.3rem;
+}
+
+.price-col{
+    padding-right: 2rem;
+}
+
+.active-sort{
+    color: var(--active-tab);
+}
+
+.price-tab{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 0.9rem 1rem;
+    position: relative;
+}
+
+.tint{
+    background-color: var(--background-tint);
+}
+
+.icon-name-div{
+    display: flex;
+}
+
+.price-percentage-div{
+    display: flex;
+}
+
+.in-inr{
+    color: var(--text-inside);
+    font-size: 0.6rem;
+}
+
+.crypto-name{
+    font-size: 0.6rem;
+    color: var(--text-inside);
+}
+
+.ticker-text{
+    font-size: 0.9rem;
+}
+
+.price{
+    font-size: 0.8rem;
+}
+
+.percentage{
+    font-size: 0.7rem;
+}
+
+.price-down{
+    background-color: var(--red);
+    padding: 0.2rem 0.3rem;
+    border-radius: 2px;
+}
+
+.price-up{
+    background-color: var(--green);
+    padding: 0.2rem 0.3rem;
+    border-radius: 2px;
+}
+
+.navigation{
+    background-color: var(--navigation);
+    display: flex;
+    justify-content: space-around;
+    padding: 0.6rem 0.5rem;
+    position:relative;
+    bottom:18px;
+    border-top: 1px solid rgb(104, 100, 100);
+}
+
+.nav-tabs{
+    color: var(--text-inside);
+    font-size: 0.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-tabs i{
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+}
